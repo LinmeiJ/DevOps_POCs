@@ -1,0 +1,94 @@
+{
+  "canaryName": "LocalSyntheticsCanary",
+  "startTime": "2024-11-11T19:45:22.356Z",
+  "endTime": "2024-11-11T19:45:36.676Z",
+  "timeSpentInResetInMs": 1,
+  "timeSpentInLaunchInMs": 1039,
+  "timeSpentInSetUpInMs": 16,
+  "executionStatus": "SUCCEEDED",
+  "executionError": null,
+  "customerScript": {
+    "startTime": "2024-11-11T19:45:22.356Z",
+    "endTime": "2024-11-11T19:45:35.887Z",
+    "status": "PASSED",
+    "failureReason": null,
+    "metricsPublished": true,
+    "requests": {
+      "failed": 0,
+      "_2xx": 42,
+      "_4xx": 0,
+      "_5xx": 0,
+      "_3xx": 0
+    },
+    "steps": [],
+    "reports": [],
+    "nonStepScreenshots": [
+      {
+        "fileName": "01-screenshot-loaded.png",
+        "pageUrl": "https://www.google.com/",
+        "error": null,
+        "visualTestResult": null,
+        "screenshotNum": 0.01
+      }
+    ]
+  },
+  "configuration": {
+    "screenshotConfiguration": {
+      "screenshotOnStepStart": true,
+      "screenshotOnStepSuccess": true,
+      "screenshotOnStepFailure": true
+    },
+    "artifactConfiguration": {
+      "harFile": true,
+      "stepsReport": true
+    },
+    "reportingConfiguration": {
+      "includeRequestHeaders": false,
+      "includeResponseHeaders": false,
+      "includeUrlPassword": false,
+      "restrictedHeaders": [],
+      "includeRequestBody": false,
+      "includeResponseBody": false,
+      "restrictedUrlParameters": []
+    },
+    "loggingConfiguration": {
+      "logRequest": true,
+      "logResponse": true,
+      "logResponseBody": false,
+      "logRequestBody": false,
+      "logRequestHeaders": false,
+      "logResponseHeaders": false
+    },
+    "executionConfiguration": {
+      "continueOnStepFailure": false,
+      "continueOnHttpStepFailure": true
+    },
+    "stepMetricsConfiguration": {
+      "stepSuccessMetric": true,
+      "stepDurationMetric": true
+    },
+    "canaryMetricsConfiguration": {
+      "failedRequestsMetric": true,
+      "_2xxMetric": true,
+      "_4xxMetric": true,
+      "_5xxMetric": true,
+      "aggregatedFailedRequestsMetric": true,
+      "aggregated2xxMetric": true,
+      "aggregated4xxMetric": true,
+      "aggregated5xxMetric": true,
+      "failedCanaryMetric": true,
+      "aggregatedFailedCanaryMetric": true,
+      "visualMonitoringTotalComparisonsMetric": false,
+      "visualMonitoringSuccessPercentMetric": true
+    },
+    "visualMonitoringConfiguration": {
+      "visualCompareWithBaseRun": false,
+      "failCanaryRunOnVisualVariance": true,
+      "varianceHighlightHexColor": "#fafa00",
+      "visualVarianceThreshold": 0.02
+    },
+    "xRayConfiguration": {
+      "traceResourceRequests": false
+    }
+  }
+}
