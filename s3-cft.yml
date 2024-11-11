@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'v1.0.2023 - S3 Bucket'
+Parameters:
+  pResourceName:
+    Description: A name that is used for creating resources
+    Type: String
+    Default: "lm-pos"
+
+Resources:
+  rSynCanaryBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub 'cw-syn-results-${pResourceName}-canary'
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+  
