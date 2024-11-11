@@ -122,7 +122,7 @@ If you use [JetBrains IDE](https://www.jetbrains.com/idea/) then you will requir
 2. Install synthetics: `npm install @aws-sdk/client-synthetics`
 3. To run NodeJS canary, go to `nodejs-canary` directory and run following commands.
     - `sam build`
-    - `sam local invoke -e ../event.json`
+    - `sam local invoke -e event.json`
     
 ## Caveat
 
