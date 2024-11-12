@@ -2,7 +2,7 @@ const { SecretsManagerClient, GetSecretValueCommand } = require('@aws-sdk/client
 
 exports.getSecrets = async (SecretId) => {
   const client = new SecretsManagerClient({
-    region: 'us-gov-east-1',
+    region: 'us-east-2',
   });
 
   const command = new GetSecretValueCommand({

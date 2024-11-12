@@ -14,6 +14,16 @@ const heartbeatCanary = async function () {
     });
     let page = await synthetics.getPage();
     const response = await page.goto(URL, {waitUntil: 'domcontentloaded', timeout: 30000});
+
+//    const response = await synthetics.executeStep("Navigate to ngp", async function(){
+//        const response = await page.goto(URL, {
+//            waitUntil: 'domcontentloaded',
+//            timeout: 30000,
+//            args: [
+//                '--ignore-certificate-errors',
+//                '--disable-web-security's
+//            ]
+//        });
     if (!response) {
         throw new Error("Failed to load page!");
     }

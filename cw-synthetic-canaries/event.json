@@ -4,5 +4,5 @@
         "s3Bucket": "cw-syn-results-linmei",
         "s3Key": "local-run-artifacts"
     },
-    "customerCanaryHandlerName": "heartbeat-canary.handler"
+    "customerCanaryHandlerName": "oAuth-login.handler"
 }

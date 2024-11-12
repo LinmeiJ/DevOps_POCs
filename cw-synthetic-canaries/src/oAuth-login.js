@@ -37,7 +37,6 @@ exports.handler = async (ENV_PATH, DEFAULT_STEP_CONFIG) => {
       log.info('landed on web server. Start to log in...');
 
       try {
-//          await page.waitForSelector('#identifierInput', { timeout: 6000, visible: true });
           await page.waitForSelector('#dHome > div > div > div.v-col-sm-6.v-col-12.pa-0.white > div > div > div.v-container.v-locale--is-ltr.mb-6.form-container > div > div > div.access-btn > button', { timeout: 3000, visible: true });
           log.info("got selector...");
           await page.click('#dHome > div > div > div.v-col-sm-6.v-col-12.pa-0.white > div > div > div.v-container.v-locale--is-ltr.mb-6.form-container > div > div > div.access-btn > button > span.v-btn__content');
