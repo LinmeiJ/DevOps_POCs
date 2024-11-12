@@ -5,7 +5,7 @@ const { getSecrets } = require('./utils/secrets');
 
 exports.handler = async (ENV_PATH, DEFAULT_STEP_CONFIG) => {
 
-  const secrets = await getSecrets(`sc-quality-insight-${process.env.NODE_ENV}-node-backend-vue/app`);
+  const secrets = await getSecrets(`<secrets_string_name>/app`); //TODO: replace secrets_string_name with actual name in ASM
   const username = secrets.USER_USERNAME;
   const password = secrets.USER_PASSWORD;
 
