@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e43c0aa-885a-4ecd-aac7-1a1f6538d138" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cw-synthetic-canaries/src/oAuth-login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw-synthetic-canaries/src/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw-synthetic-canaries/event.json" beforeDir="false" afterPath="$PROJECT_DIR$/cw-synthetic-canaries/event.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw-synthetic-canaries/src/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/cw-synthetic-canaries/src/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw-synthetic-canaries/src/heartbeat-canary.js" beforeDir="false" afterPath="$PROJECT_DIR$/cw-synthetic-canaries/src/heartbeat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw-synthetic-canaries/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/cw-synthetic-canaries/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw-synthetic-canaries/src/oAuth-login-canary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw-synthetic-canaries/src/utils/secrets.js" beforeDir="false" afterPath="$PROJECT_DIR$/cw-synthetic-canaries/src/utils/secrets.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "jdk.selected.JAVA_MODULE": "18",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cw-synthetic-canaries" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

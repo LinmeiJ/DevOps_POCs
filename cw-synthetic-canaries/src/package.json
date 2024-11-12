@@ -1,0 +1,10 @@
+{
+  "name": "synthetics-local-dev",
+  "description": "Local Synthetics canary dev environment",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@aws-sdk/client-synthetics": "^3.687.0",
+    "@faker-js/faker": "^8.4.1"
+  }
+}
