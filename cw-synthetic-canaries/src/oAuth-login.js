@@ -31,7 +31,7 @@ exports.handler = async (ENV_PATH, DEFAULT_STEP_CONFIG) => {
   try {
       await synthetics.executeStep('Navigate to Homepage', async function (timeoutInMillis = 120000) {
    //      await page.goto(`https://qi${ENV_PATH}.av.ge.com/login`, {waitUntil: ['load', 'networkidle2'], timeout: timeoutInMillis});
-      await page.goto(`https://ngp.qa.apps.geaerospace.com`, {waitUntil: ['load', 'networkidle2'], timeout: timeoutInMillis});
+      await page.goto(`https://<DNS_NAME>`, {waitUntil: ['load', 'networkidle2'], timeout: timeoutInMillis}); //TODO: replace DNS_NAME with actual DNS name
    //      await synthetics.takeScreenshot("start", "loaded");
 
       log.info('landed on web server. Start to log in...');
